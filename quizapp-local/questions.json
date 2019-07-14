@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What is most important to you ?",
+        "choice1": "Practicality",
+        "choice2": "Evolution",
+        "choice3": "Empathy",
+        "choice4": "Money",
+        "answer": 3
+    },
+    {
+        "question": "What do you value most ?",
+        "choice1": "Family",
+        "choice2": "Love",
+        "choice3": "Humanity",
+        "choice4": "Religion",
+        "answer": 3
+    },
+    {
+        "question": "In a situation of potential conflict, how do you resolve the situation ?",
+        "choice1": "I seek understanding by asking questions",
+        "choice2": "I attempt to get the other person to see my perspective",
+        "choice3": "I escape the situation and let some time pass before talking again",
+        "choice4": "I take the person out of my life altogether",
+        "answer": 1
+    }
+]
