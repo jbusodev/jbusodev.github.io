@@ -273,15 +273,6 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		@media screen and (max-width: 980px) {
-
-			.container {
-				width: 100% !important;
-				max-width: 100% !important;
-			}
-
-		}
-
 		@media screen and (max-width: 480px) {
 
 			.container {
@@ -1025,6 +1016,11 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+			.container {
+				width: 100%;
+				max-width: 100%;
+			}
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -3050,6 +3046,12 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
+			.work-item h3 {
+				font-size: 1.5rem;
+			}
+			.work-item p {
+				font-size: 1.2rem;
+			}
 		/* Header */
 
 			#header {
@@ -3176,10 +3178,11 @@ input, select, textarea {
 				padding: 2.25em 1.5em 0.25em 1.5em;
 			}
 
-				#main > section {
-					margin: 2.25em 0 0 0;
-					padding: 2.25em 0 0 0;
-				}
+			#main > section {
+				margin: 2.25em 0 0 0;
+				padding: 2.25em 0 0 0;
+				font-size: 1.25rem;
+			}
 
 		/* Poptrox */
 
@@ -3187,10 +3190,10 @@ input, select, textarea {
 				border-radius: 0;
 			}
 
-				.poptrox-popup .nav-next:before,
-				.poptrox-popup .nav-previous:before {
-					margin-top: -1em;
-				}
+			.poptrox-popup .nav-next:before,
+			.poptrox-popup .nav-previous:before {
+				margin-top: -1em;
+			}
 
 	}
 
