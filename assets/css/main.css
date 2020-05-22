@@ -89,7 +89,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     transition: none !important;
 }
 
-body, input, select, textarea {
+body, input, select, textarea, button {
     color: #a2a2a2;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 16pt;
