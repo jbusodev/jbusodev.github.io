@@ -97,6 +97,10 @@ body, input, select, textarea, button {
     line-height: 1.75em;
 }
 
+button::-moz-focus-inner {
+    border: 0;
+}
+
 a {
     -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
