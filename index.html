@@ -42,7 +42,7 @@
       <!-- Two -->
       <section id="two">
         <h2>{{ section1title }}</h2>
-        <div class="row">
+        <div class="row" id="web">
           <webdev-item
             v-for="article in webdev"
             v-bind:todo="article"
@@ -51,7 +51,7 @@
           </webdev-item>
         </div>
         <h2>{{ section2title }}</h2>
-        <div class="row ">
+        <div class="row " id="design">
           <design-item
             v-for="article in design"
             v-bind:todo="article"
