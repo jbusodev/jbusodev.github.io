@@ -160,7 +160,7 @@
       Vue.component("webdev-item", {
         props: ["todo"],
         template:
-          '<article class="col-6 col-12-xsmall work-item "><a v-bind:href="todo.img" class="image fit thumb "><img :src="todo.thumb" /></a><h3>{{ todo.title }}</h3><p>{{ todo.desc }} <a target="_blank" :href="todo.link ">{{ todo.visit }}</a></p></article>'
+          '<article class="col-6 col-12-xsmall work-item "><a v-bind:href="todo.img" class="image fit thumb "><img :src="todo.thumb" /></a><h3>{{ todo.title }} | {{ todo.date }}</h3><p>{{ todo.desc }} <a target="_blank" :href="todo.link ">{{ todo.visit }}</a></p></article>'
       });
 
       Vue.component("design-item", {
@@ -191,9 +191,19 @@
           section2title: "Recent Design Work",
           webdev: [
             {
+              img: "images/fulls/yuneo.jpg",
+              thumb: "images/thumbs/yuneo.jpg",
+              title: "multi-page agency website",
+              date: "2020-10",
+              desc: "A multi-page website digital agency website built in ReactJS including localization",
+              link: "https://www.yuneo-digital.com",
+              visit: "yuneo-digital.com"
+            },
+            {
               img: "images/fulls/VOTRAVO.jpg",
               thumb: "images/thumbs/votravo.jpg",
               title: "Multi-Page website",
+              date: "2020-10 - in progress",
               desc:
                 "A Multi-Page Website for a leading renovation company in the French-speaking part of Switzerland",
               link: "https://www.votravo.ch",
@@ -203,6 +213,7 @@
               img: "images/fulls/frog.jpg",
               thumb: "images/thumbs/frog.jpg",
               title: "Eat the Frog - Task Management App",
+              date: "2020-06",
               desc:
                 "A Multi-Page Application built with PHP, jQuery and Ajax. (Image-related features disabled because of Heroku ephermeral filesystem). App in French. Credentials : User - portfolio:demo_!#% Admin - portfolioadm:demo_!#%",
               link: "https://eat-the-frog.herokuapp.com",
@@ -212,6 +223,7 @@
               img: "images/fulls/aircreation.jpg",
               thumb: "images/thumbs/aircreation.jpg",
               title: "Multi-Page Website",
+              date: "2018",
               desc: "A animated website for a Hair Salon.",
               link: "https://www.aircreation.ch",
               visit: "aircreation.ch"
@@ -220,6 +232,7 @@
               img: "images/fulls/dyw.jpg",
               thumb: "images/thumbs/dyw.jpg",
               title: "One-page website",
+              date: "2017",
               desc:
                 "A one-page website for a Consulting website in the watch industry.",
               link: "https://www.developyourwatch.ch",
@@ -229,6 +242,7 @@
               img: "images/fulls/quizapp.jpg",
               thumb: "images/thumbs/quizapp.jpg",
               title: "Quiz App with API",
+              date: "2019",
               desc:
                 "A Quiz app built in HTML, CSS and JavaScript utilizing the Open Trivia API",
               link: "https://quizapp-api.herokuapp.com",
